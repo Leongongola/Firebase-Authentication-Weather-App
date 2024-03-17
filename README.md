@@ -33,7 +33,7 @@ To get started with MyWeatherApp, follow the instructions below.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/my-weather-app.git
+git clone https://github.com/Leongongola/Firebase-Authentication-Weather-App.git
 
 ## Navigate to the project directory 
 cd app
