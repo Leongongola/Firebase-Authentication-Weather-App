@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useUserAuth } from "./auth-context"; // Assuming this is the correct path
 
+
 export default function Page() {
   const { user, gitHubSignIn, firebaseSignOut } = useUserAuth();
 
