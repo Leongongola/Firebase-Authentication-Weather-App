@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MyWeatherApp
+
+MyWeatherApp is a web application that provides real-time weather information for various cities around the world.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+MyWeatherApp is a simple web application developed to help users stay informed about the current weather conditions in different cities. Users can easily search for a city and view detailed weather information such as temperature, humidity, wind speed, and more.
+
+## Features
+
+- View real-time weather information for multiple cities
+- Search for weather data by city name
+- Display temperature in Celsius
+- Responsive design for seamless use on various devices
 
 ## Getting Started
 
-First, run the development server:
+To get started with MyWeatherApp, follow the instructions below.
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/my-weather-app.git
+
+## Navigate to the project directory 
+cd app
+
+#### Install dependencies:
+npm install
+
+## Start application
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your web browser and navigate to http://localhost:3000 to access MyWeatherApp.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Technologies Used
+MyWeatherApp is built using the following technologies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+React
+Next.js
+OpenWeatherMap API
+Tailwind CSS
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
